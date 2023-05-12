@@ -21,10 +21,14 @@
   font-family: "Karla", sans-serif;
   font-weight: 500;
   font-size: 16pt;
-
   text-decoration: none !important;
-
+  transition: color 0.3s ease;
 }
+
+.navbar a:hover {
+  color: #f4ce14;
+}
+
 @media (max-width: 768px) {
   .header {
     flex-direction: column;
@@ -39,17 +43,7 @@
     margin-bottom: 10px;
   }
 }
-/*.container{
-  display: flex;
-  background-color: #495E57;
-}
-.text {
-  display: flex;
-}
 
-.container img {
-  height: 30px;
-}*/
 .container {
   display: flex;
   background-color: #495E57;
@@ -64,7 +58,7 @@
   width: 190pt;
   height: 350px;
     border-radius: 10px;
-    margin-bottom: -10%; /* adjust this to move the image outside of the container */
+    margin-bottom: -10%;
   }
 h1, h2 {
   margin: 0;
@@ -77,17 +71,23 @@ h1, h2 {
 }
 .text p {
   color: white;
-  font-size: 16pt;
+  font-family: "Karla", sans-serif;
   line-height: 1.5;
   max-width: 65ch;
 }
 
 .text button{
-  color: white;
+  color: black;
   background-color:#f4ce14 ;
-  border-radius: 10px;
+  border-radius: 16px;
+  border: none;
   font-size: 16pt;
   line-height: 1.5;
+  transition: background-color 0.5s ease;
+}
+
+.text button:hover {
+  background-color: #ffa500;
 }
 
 .specials{
@@ -97,18 +97,38 @@ h1, h2 {
   margin-bottom: 40px;
 
 }
+.specials button{
+  color: black;
+  background-color:#f4ce14 ;
+  border-radius: 16px;
+  border: none;
+  font-size: 16pt;
+  line-height: 1.5;
+  transition: background-color 0.3s ease;
+}
+
+.specials button:hover {
+  background-color: #ffa500;
+}
 
 .container2{
   display: flex;
   justify-content: center;
-
 }
+
 .menu-item {
   width: 300px;
-  background-color: #edefee;
+  background-color:#edefee;
   margin:5px ;
   border-radius: 16px;
+  padding-bottom: 20px;
+  transition: 0.3s ease;
 }
+
+.menu-item:hover {
+  box-shadow: 0px 0px 100px rgba(0, 0, 0, 0.3);
+}
+
 
 .menu-item img {
   border-top-left-radius: 16px;
@@ -123,9 +143,26 @@ h1, h2 {
 }
 .menu-item p {
   margin-left: 40px;
-  font-size: 16pt;
+  font-family: "Karla", sans-serif;
   line-height: 1.5;
   max-width: 20ch;
+}
+.order-delivery {
+  margin-left: -60px !important;
+}
+
+.container2 button{
+  color: black;
+  background-color:#f4ce14 ;
+  border-radius: 16px;
+  border: none;
+  font-size: 16pt;
+  line-height: 1.5;
+  transition: background-color 0.3s ease;
+}
+
+.container2 button:hover {
+  background-color: #ffa500;
 }
 
 
@@ -166,7 +203,7 @@ h1, h2 {
 }
 
 .testimonials p {
-  font-size: 16px;
+  font-family: "Karla", sans-serif;
   line-height: 1.5;
   text-align: center;
 }
@@ -187,7 +224,7 @@ h1, h2 {
   border-radius: 10px;
 }
 .text2 p {
-  font-size: 16pt;
+  font-family: "Karla", sans-serif;
   line-height: 1.5;
   max-width: 60ch;
 }
@@ -201,3 +238,30 @@ h1, h2 {
   padding-bottom: 50px;
   display: flex;
  }
+ .Doormat-nav a {
+  color: black;
+  text-decoration: none !important;
+  list-style: none;
+
+  transition: color 0.3s ease;
+}
+
+.Doormat-nav a:hover {
+  color: #f4ce14;
+}
+ .Doormat-nav ul {
+  list-style: none;
+ }
+ .social-media-links ul {
+  list-style: none;
+ }
+ .social-media-links a {
+  color: black;
+  text-decoration: none !important;
+  list-style: none;
+  transition: color 0.3s ease;
+}
+
+.social-media-links a:hover {
+  color: #f4ce14;
+}

@@ -37,8 +37,8 @@ const footer = () => {
                 <p>Phone: 123-456-7890</p>
             </div>
             <div className="social-media-links">
-          <h2>Follow Us</h2>
           <ul>
+          <h2>Follow Us</h2>
             <li>
             <a href="https://www.facebook.com/littlelemon" target="_blank" rel="noopener noreferrer">
                 <i className="fab fa-facebook-f"></i>

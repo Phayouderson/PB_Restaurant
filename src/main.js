@@ -28,9 +28,8 @@ const main = () => {
                         <p>$12.99</p>
                     </div>
                     <p>you will have the skills necessary to take the wireframes of your design solution for your project on the reserve-a-table section of the Little Lemon website</p>
-                    <div>
+                    <div className="order-delivery">
                         <button>Order a delivery</button>
-                        <img src={Basket} alt="basket"/>
                     </div>
                 </div>
                 <div className="menu-item">
@@ -40,9 +39,8 @@ const main = () => {
                         <p>$12.99</p>
                     </div>
                     <p>you will have the skills necessary to take the wireframes of your design solution for your project on the reserve-a-table section of the Little Lemon website</p>
-                    <div>
+                    <div className="order-delivery">
                         <button>Order a delivery</button>
-                        <img src={Basket} alt="basket"/>
                     </div>
                 </div>
                 <div className="menu-item">
@@ -52,9 +50,8 @@ const main = () => {
                         <p>$12.99</p>
                     </div>
                     <p>you will have the skills necessary to take the wireframes of your design solution for your project on the reserve-a-table section of the Little Lemon website</p>
-                    <div>
+                    <div className="order-delivery">
                         <button>Order a delivery</button>
-                        <img src={Basket} alt="basket"/>
                     </div>
                 </div>
             </article>
